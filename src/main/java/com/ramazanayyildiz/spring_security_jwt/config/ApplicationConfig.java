@@ -1,6 +1,6 @@
-package com.ramazanayyildiz.config;
+package com.ramazanayyildiz.spring_security_jwt.config;
 
-import com.ramazanayyildiz.repository.UserRepository;
+import com.ramazanayyildiz.spring_security_jwt.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

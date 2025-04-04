@@ -1,6 +1,6 @@
-package com.ramazanayyildiz.config;
+package com.ramazanayyildiz.spring_security_jwt.config;
 
-import com.ramazanayyildiz.service.JwtService;
+import com.ramazanayyildiz.spring_security_jwt.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

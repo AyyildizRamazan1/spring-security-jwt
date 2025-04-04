@@ -1,4 +1,4 @@
-package com.ramazanayyildiz.dto;
+package com.ramazanayyildiz.spring_security_jwt.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserResponse {
+public class UserDto {
 
-    private String token;
+    private String nameSurname;
+
+    private String username;
+
+    private String password;
 }

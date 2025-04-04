@@ -1,6 +1,6 @@
-package com.ramazanayyildiz.repository;
+package com.ramazanayyildiz.spring_security_jwt.repository;
 
-import com.ramazanayyildiz.entity.User;
+import com.ramazanayyildiz.spring_security_jwt.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

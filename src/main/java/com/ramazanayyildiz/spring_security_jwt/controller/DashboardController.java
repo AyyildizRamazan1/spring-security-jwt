@@ -1,4 +1,4 @@
-package com.ramazanayyildiz.controller;
+package com.ramazanayyildiz.spring_security_jwt.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

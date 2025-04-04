@@ -1,6 +1,6 @@
-package com.ramazanayyildiz.entity;
+package com.ramazanayyildiz.spring_security_jwt.entity;
 
-import com.ramazanayyildiz.enums.Role;
+import com.ramazanayyildiz.spring_security_jwt.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,6 +22,7 @@ import java.util.List;
 public class User implements UserDetails {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nameSurname;

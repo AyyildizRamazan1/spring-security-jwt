@@ -1,4 +1,4 @@
-package com.ramazanayyildiz.dto;
+package com.ramazanayyildiz.spring_security_jwt.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

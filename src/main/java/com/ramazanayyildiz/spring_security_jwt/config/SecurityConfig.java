@@ -1,4 +1,4 @@
-package com.ramazanayyildiz.config;
+package com.ramazanayyildiz.spring_security_jwt.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -20,7 +20,8 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity.csrf()
+        httpSecurity
+                .csrf()
                 .disable()
                 .authorizeHttpRequests()
                 .requestMatchers("/login/**")

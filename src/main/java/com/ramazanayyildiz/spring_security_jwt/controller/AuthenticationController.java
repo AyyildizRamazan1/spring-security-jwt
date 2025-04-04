@@ -1,9 +1,9 @@
-package com.ramazanayyildiz.controller;
+package com.ramazanayyildiz.spring_security_jwt.controller;
 
-import com.ramazanayyildiz.dto.UserDto;
-import com.ramazanayyildiz.dto.UserRequest;
-import com.ramazanayyildiz.dto.UserResponse;
-import com.ramazanayyildiz.service.AuthenticationService;
+import com.ramazanayyildiz.spring_security_jwt.dto.UserDto;
+import com.ramazanayyildiz.spring_security_jwt.dto.UserRequest;
+import com.ramazanayyildiz.spring_security_jwt.dto.UserResponse;
+import com.ramazanayyildiz.spring_security_jwt.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

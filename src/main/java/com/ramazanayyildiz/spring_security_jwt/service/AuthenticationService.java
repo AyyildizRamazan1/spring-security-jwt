@@ -1,11 +1,11 @@
-package com.ramazanayyildiz.service;
+package com.ramazanayyildiz.spring_security_jwt.service;
 
-import com.ramazanayyildiz.dto.UserDto;
-import com.ramazanayyildiz.dto.UserRequest;
-import com.ramazanayyildiz.dto.UserResponse;
-import com.ramazanayyildiz.entity.User;
-import com.ramazanayyildiz.enums.Role;
-import com.ramazanayyildiz.repository.UserRepository;
+import com.ramazanayyildiz.spring_security_jwt.dto.UserDto;
+import com.ramazanayyildiz.spring_security_jwt.dto.UserRequest;
+import com.ramazanayyildiz.spring_security_jwt.dto.UserResponse;
+import com.ramazanayyildiz.spring_security_jwt.entity.User;
+import com.ramazanayyildiz.spring_security_jwt.enums.Role;
+import com.ramazanayyildiz.spring_security_jwt.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
