@@ -1,4 +1,4 @@
-This project demonstrates how to implement JWT (JSON Web Token) authentication using Spring Boot and Spring Security.It provides basic user registration and login endpoints.Upon successful login, a JWT token is generated and returned to the user.The token can be used to access protected endpoints that require authentication.The application uses in-memory H2 database and stores users with encrypted passwords.
+This project demonstrates how to implement JWT (JSON Web Token) authentication using Spring Boot and Spring Security. It provides basic user registration and login endpoints.Upon successful login, a JWT token is generated and returned to the user. The token can be used to access protected endpoints that require authentication. The application uses in-memory H2 database and stores users with encrypted passwords.
 
 User registration is done first. (localhost:8080/login/save)
 
